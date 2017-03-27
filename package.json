@@ -1,12 +1,28 @@
 {
-  "name": "application-name",
-  "version": "2.0.0",
+  "name": "Stocker-WebNode",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node server"
   },  
-"license": "Apache",
-"engines": {
+  "license": "Apache",
+  "engines": {
     "node": "~0.10.0 || ~4.2.0"
+  },
+  "dependencies" : {
+    "bcrypt-nodejs" : "*",
+    "body-parser": "*",
+    "connect-flash" : "*",    
+    "cookie-parser": "*",
+    "express" : "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb" : "*",
+    "mongoose" : "*",
+    "passport" : "*",         
+    "passport-http" : "*",
+    "passport-local" : "*",
   }
 }
