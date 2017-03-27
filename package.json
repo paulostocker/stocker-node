@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node server"
-  },  
+  },
   "license": "Apache",
   "engines": {
     "node": "~0.10.0 || ~4.2.0"
@@ -12,7 +12,7 @@
   "dependencies" : {
     "bcrypt-nodejs" : "*",
     "body-parser": "*",
-    "connect-flash" : "*",    
+    "connect-flash" : "*",
     "cookie-parser": "*",
     "express" : "*",
     "express-handlebars": "*",
@@ -21,8 +21,8 @@
     "express-validator": "*",
     "mongodb" : "*",
     "mongoose" : "*",
-    "passport" : "*",         
+    "passport" : "*",
     "passport-http" : "*",
-    "passport-local" : "*",
+    "passport-local" : "*"
   }
 }
